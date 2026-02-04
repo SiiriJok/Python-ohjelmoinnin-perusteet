@@ -11,3 +11,8 @@ lisa = 10
 
 print("Käyttäjän ikä on:", ika + lisa)
 
+import math
+
+math.pi * 5
+
+
