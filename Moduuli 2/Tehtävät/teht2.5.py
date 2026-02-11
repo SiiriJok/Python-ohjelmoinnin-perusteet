@@ -6,4 +6,8 @@ luoti_grammoina = 13.3
 naula_grammoina = 32 * luoti_grammoina
 leiviska_grammoina = 20 * naula_grammoina
 
-massa_grammoina = (leiviskat * leiviska_grammoina + naulat)
+massa_grammoina = (leiviskat * leiviska_grammoina + naulat * naula_grammoina + luodit * luoti_grammoina)
+
+Kilo = massa_grammoina / 1000
+
+print("Vastaus on", Kilo)
