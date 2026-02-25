@@ -8,7 +8,7 @@ if sukupuoli == "mies":
     if hemo > 195:
         print("korkea hemoglobiiniarvo")
 
-    elif 134 < hemo < 195:
+    elif 134 <= hemo <= 195:
         print("normaali hemoglobiiniarvo")
 
     else:
@@ -19,7 +19,7 @@ else:
     if hemo > 175:
         print("korkea hemoglobiiniarvo")
 
-    elif 117 < hemo < 175:
+    elif 117 <= hemo <= 175:
         print("normaali hemoglobiiniarvo")
 
     else:
