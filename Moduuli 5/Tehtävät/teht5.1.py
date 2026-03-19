@@ -7,7 +7,7 @@ arpa = int(input("Kuinka monta arpakuutiota on? "))
 
 summa = 0
 
-for heitto in range(arpa):
+for i in range(arpa):
     heitto = random.randint(1,6)
     summa += heitto
 
