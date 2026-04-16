@@ -18,16 +18,16 @@ while True:
     print("2 = Hae lentoaseman tiedot")
     print("3 = Lopeta")
 
-    valinta = input("Anna valinta: ")
+    valinta = input("Anna valinta: ").upper()
 
     if valinta == "1":
-        icao = input("Anna ICAO-koodi (isoilla kirjaimilla): ")
+        icao = input("Anna ICAO-koodi (isoilla kirjaimilla): ").upper()
         nimi = input("Anna lentoaseman nimi: ")
         lentoasemat[icao] = nimi
         print("Lentoasema tallennettu.")
 
     elif valinta == "2":
-        icao = input("Anna haettava ICAO-koodi (isoilla kirjaimilla): ")
+        icao = input("Anna haettava ICAO-koodi (isoilla kirjaimilla): ").upper()
         if icao in lentoasemat:
             print("Lentoaseman nimi:", lentoasemat[icao])
         else:

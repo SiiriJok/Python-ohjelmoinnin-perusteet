@@ -19,5 +19,6 @@ while True:
         print("Uusi nimi")
         nimet.add(nimi)
 
-print(nimet)
+for n in nimet:
+    print(n)
 
